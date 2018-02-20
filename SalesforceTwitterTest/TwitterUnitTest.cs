@@ -28,11 +28,9 @@ namespace SalesforceTwitterTest
             //Assert
 
             Assert.IsInstanceOfType(result,typeof(RedirectToRouteResult));
-
-
-
-
-
+            RedirectToRouteResult routeResult = result as RedirectToRouteResult;
+            Assert.AreEqual(routeResult.RouteName[0].ToString(), screennameExpected);
+                       
         }
     }
 }
