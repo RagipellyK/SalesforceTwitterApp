@@ -1,0 +1,18 @@
+﻿.paddingTweetsbody {
+    padding-left: 40px !important;
+}
+
+.paddingTweetsHeader {
+    padding-left: 20px;
+}
+.colorScreenName {
+    color: #1589ee;
+}
+.inputBox {
+    float: right;
+    top: -28px;
+}
+
+.lineBreak {
+    top: 25px;
+}
