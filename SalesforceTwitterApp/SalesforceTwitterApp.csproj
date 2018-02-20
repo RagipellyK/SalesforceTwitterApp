@@ -144,8 +144,10 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResource.resx</DependentUpon>
     </Compile>
+    <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Constants\AppConstants.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\JasmineController.cs" />
     <Compile Include="Global.asax.cs">
@@ -160,6 +162,7 @@
     <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Content\logo.svg" />
     <Content Include="Content\salesforce-lightning-design-system.min.css" />
+    <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -227,6 +230,10 @@
   <ItemGroup>
     <None Include="packages.config" />
     <Content Include="Views\Jasmine\SpecRunner.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\NotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AppResource.resx">
