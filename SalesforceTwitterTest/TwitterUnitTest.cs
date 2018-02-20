@@ -21,8 +21,6 @@ namespace SalesforceTwitterTest
 
             ActionResult result = controller.Index();
 
-            //ActionResult result = controller.TwitterCallback() as ViewResult;
-
             string screennameExpected = "salesforce";
 
             //Assert
